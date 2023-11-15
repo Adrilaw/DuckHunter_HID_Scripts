@@ -1,3 +1,33 @@
+![nethunter-duckhunter](https://github.com/Adrilaw/DuckHunter_HID_Script/assets/65346144/470cf1ba-7ecc-4b51-ac1d-0884443154e1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # DuckHunter_HID_Script
 Script to use in nethunter Duckhunter HID attack. 
 
