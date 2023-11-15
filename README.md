@@ -14,6 +14,7 @@ Script to use in nethunter Duckhunter HID attack.
 
 # Resources
 • DuckHunter_HID: https://www.kali.org/docs/nethunter/nethunter-duckhunter/
+
 • Idea: https://github.com/Adrilaw/Digispark_DuckyScript
 
 # WARNING!
