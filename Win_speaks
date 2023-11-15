@@ -1,0 +1,20 @@
+REM Open PowerShell
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+
+REM Type the message to be spoken
+DELAY 500
+STRING Add-Type -AssemblyName System.Speech
+ENTER
+DELAY 500
+STRING $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
+ENTER
+DELAY 500
+STRING $speak.Speak("Hello, this is your computer speaking.")
+ENTER
+DELAY 509
+STRING exit
+ENTER
