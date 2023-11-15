@@ -12,5 +12,9 @@ Script to use in nethunter Duckhunter HID attack.
 
 • WinpayloadExcute: Dowloads payload from your webserver and executes it
 
-#WARNING!
+# Resources
+• DuckHunter_HID: https://www.kali.org/docs/nethunter/nethunter-duckhunter/
+• Idea: https://github.com/Adrilaw/Digispark_DuckyScript
+
+# WARNING!
 IM not responsible for the misuse of the following script be ethical.
