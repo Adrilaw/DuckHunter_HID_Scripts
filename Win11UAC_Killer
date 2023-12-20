@@ -1,7 +1,5 @@
 REM Title: Disable Windows Defender
-REM Author: Zero_Sploit (v1.0)
-REM Updated: B33m0 (v1.1)
-REM Updated: UberGuidoZ (v1.2)
+REM Author: Pentestersploit/Adrilaw
 REM Description: Opens security settings, disabled Defender, then adds an exception of drive C for persistence
 REM Target: Windows 10/11 (Powershell)
 REM Version: 1.2
