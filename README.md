@@ -48,4 +48,4 @@ Script to use in nethunter Duckhunter HID attack.
 • Idea: https://github.com/Adrilaw/Digispark_DuckyScript
 
 # WARNING!
-IM not responsible for the misuse of the following script be ethical.
+I'm not responsible for the misuse of the following script be ethical.
