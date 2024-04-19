@@ -1,5 +1,10 @@
 REM Author: Pentestersploit/Adrilaw
-REM: https://github.com/Adrilaw/DuckHunter_HID_Script
+REM Github: https://github.com/Adrilaw
+REM Title: Windows Rickroll Attack
+REM Description: Starts a powershell to download the rickroll song and execute the downloaded file
+REM Target: Windows 10/11
+REM Version: 1.2
+
 REM start of script
 REM
 REM let the HID enumerate
