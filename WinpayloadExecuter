@@ -1,6 +1,7 @@
 REM Author: Pentestersploit/Adrilaw
 REM Github: https://github.com/Adrilaw
 REM Title: Windows payload executer
+REM Payload: On line 21 you will see I wrote payload.exe change it to the name of your payload and change the http link
 REM Description: Downloads your metasploit payload from your apache webserver and then execute it
 REM Target: Windows 10/11
 REM Version: 1.2 
