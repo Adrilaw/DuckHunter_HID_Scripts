@@ -1,5 +1,5 @@
 REM Author: Pentestersploit/Adrilaw
-REM: https://github.com/Adrilaw/DuckHunter_HID_Script
+REM Github: https://github.com/Adrilaw
 REM Title: Win11_Reverse_Shell
 REM Description: Downloads powercat via powershell and starts a reverse shell
 REM Target: Windows 10/11 
