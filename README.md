@@ -47,5 +47,8 @@ Script to use in nethunter Duckhunter HID attack.
 
 • Idea: https://github.com/Adrilaw/Digispark_DuckyScript
 
+## License
+DuckHunter_HID_Script is licensed under the MIT License to promote open collaboration and innovation in the realm of HID security testing.
+
 # WARNING!
 I'm not responsible for the misuse of the following script be ethical.
