@@ -13,15 +13,15 @@ ENTER
 DELAY 500
 
 REM Type the message to be spoken
-DELAY 500
+DELAY 800
 STRING Add-Type -AssemblyName System.Speech
 ENTER
-DELAY 500
+DELAY 750
 STRING $speak = New-Object System.Speech.Synthesis.SpeechSynthesizer
 ENTER
-DELAY 500
+DELAY 750
 STRING $speak.Speak("<replace with your text>.")
 ENTER
-DELAY 509
+DELAY 750
 STRING exit
 ENTER
