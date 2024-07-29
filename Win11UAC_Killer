@@ -1,5 +1,6 @@
 REM Author: Pentestersploit/Adrilaw
 REM Github: https://github.com/Adrilaw
+REM Xda:@ Kidpentester
 REM Title: Disable Windows Defender
 REM Description: Opens security settings, disabled Defender, then adds an exception of drive C for persistence
 REM Target: Windows 10/11 
