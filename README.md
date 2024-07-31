@@ -6,13 +6,13 @@
 # Scripts Descriptions
 • Win11UAC_Killer: It disables windows defender
 
-• Win11_Reverse_Shell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and port
+• Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and port
 
 • WinRickroll: Starts a rickroll on target systems
 
 • Win_speaks: Makes your computer say stuff
 
-• WinpayloadExcute: Dowloads payload from your webserver and executes it  NOTE: Edit the url to your desire place
+• WinpayloadExcuter: Dowloads payload from your webserver and executes it  NOTE: Edit the url to your desire place
 
 # Resources
 • DuckHunter_HID: https://www.kali.org/docs/nethunter/nethunter-duckhunter/
