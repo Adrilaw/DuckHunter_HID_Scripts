@@ -1,7 +1,7 @@
 REM Author: Pentestersploit/Adrilaw
 REM Github: https://github.com/Adrilaw
 REM Xda-developer: @Kidpentester
-REM Title: Win11_Reverse_Shell
+REM Title: Win-Netcat-ReverseShell
 REM Description: Downloads powercat via powershell and starts a reverse shell
 REM Target: Windows 10/11 
 REM VERSION: 1.2
