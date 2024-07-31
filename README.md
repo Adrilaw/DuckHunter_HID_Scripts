@@ -1,4 +1,4 @@
-![nethunter-duckhunter](https://github.com/Adrilaw/DuckHunter_HID_Script/assets/65346144/470cf1ba-7ecc-4b51-ac1d-0884443154e1)
+![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830)
 
 
 
