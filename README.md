@@ -14,7 +14,9 @@
 
 • WinpayloadExcuter: Dowloads payload from your webserver and executes it  NOTE: Edit the url to your desire place
 
-• FakeUpdateWin11: Opens a fake windows 11 update fullscreen
+• FakeUpdateWin11: Opens a fake windows 11 update in fullscreen mode
+
+• Linux-Deb-ReverseShell: Execute a revershell on debian based linux machines
 
 # Resources
 • DuckHunter_HID: https://www.kali.org/docs/nethunter/nethunter-duckhunter/
