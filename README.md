@@ -1,7 +1,8 @@
 # DuckHunter_HID_Script
 ## Script to use in nethunter Duckhunter HID attack. 
 
-![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830)
+![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830) ![Screenshot at 2024-08-02 02-57-53](https://github.com/user-attachments/assets/a85b6532-24ed-48fc-b28e-ff0def8a7125)
+
 
 # Scripts Descriptions
 • Win11UAC_Killer: It disables windows defender
