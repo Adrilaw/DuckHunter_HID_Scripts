@@ -1,7 +1,7 @@
 # DuckHunter_HID_Script
 ## Script to use in nethunter Duckhunter HID attack. 
 
-![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830) ![Screenshot at 2024-08-02 02-57-53](https://github.com/user-attachments/assets/a85b6532-24ed-48fc-b28e-ff0def8a7125)
+![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830) 
 
 
 # Scripts Descriptions
@@ -18,6 +18,9 @@
 • FakeUpdateWin11: Opens a fake windows 11 update in fullscreen mode
 
 • Linux-Deb-ReverseShell: Execute a revershell on debian based linux machines
+
+![Screenshot at 2024-08-02 02-57-53](https://github.com/user-attachments/assets/a85b6532-24ed-48fc-b28e-ff0def8a7125)
+
 
 # Resources
 • DuckHunter_HID: https://www.kali.org/docs/nethunter/nethunter-duckhunter/
