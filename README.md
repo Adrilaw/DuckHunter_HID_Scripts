@@ -1,5 +1,5 @@
 # DuckHunter_HID_Script
-## Script to use in nethunter Duckhunter HID attack. 
+## Arsenal of ducky scritpt for nethunter. 
 
 ![Screenshot_20230107-011805-934x2024-1325998174](https://github.com/user-attachments/assets/f1b56353-0102-45ef-8126-a8fe85f05830) 
 
