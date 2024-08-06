@@ -5,7 +5,7 @@
 
 
 # Scripts Descriptions
-• Win11UAC_Killer: It disables windows defender. Also in windows 10 the powershell will be hidden so user cant see what is happening
+• WinUAC_Killer: It disables windows defender.
 
 • Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and port
 
