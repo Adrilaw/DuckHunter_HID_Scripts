@@ -27,6 +27,11 @@
 
 • Idea: https://github.com/Adrilaw/Digispark_DuckyScript
 
+# Author
+Adrilaw @ GitHub
+
+Kidpentester @ xda-developers
+
 # License
 DuckHunter_HID_Script is licensed under the [MIT License](LICENSE) to promote open collaboration and innovation in the realm of HID security testing.
 
