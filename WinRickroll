@@ -22,6 +22,5 @@ SPACE
 DELAY 500
 ALT 
 DELAY 3000
-STRING $down = New-Object System.Net.Webclient; $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y'; $file = 'rickroll.mp4'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
-SPACE
-ENTER	
+STRING $down = New-Object System.Net.WebClient; $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y'; $file = 'rickroll.mp4'; $down.DownloadFile($url,$file); Start-Process $file; exit;
+ENTER
