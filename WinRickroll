@@ -2,25 +2,15 @@ REM Author: Pentestersploit/Adrilaw
 REM Github: https://github.com/Adrilaw
 REM Xda-developer: @Kidpentester
 REM Title: Windows Rickroll Attack
-REM Description: Starts a powershell to download the rickroll song and execute the downloaded file
+REM Description: Starts a command prompt and start a rickroll youtube video
 REM Target: Windows 10/11
 REM Version: 1.2
 
-REM start of script
-REM
-REM let the HID enumerate
-DELAY 2000
+DELAY 1000
 GUI r
-DELAY 200
-REM my best attempt at a elevated powershell instance
-STRING powershell Start-Process powershell -Verb runAs
-ENTER
-DELAY 3000
-TAB
-TAB
-SPACE
 DELAY 500
-ALT 
-DELAY 3000
-STRING $down = New-Object System.Net.Webclient; $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y'; $file = 'rickroll.mp4'; $down.DownloadFile($url,$file); $exec = New-Object -com shell.application; $exec.shellexecute($file); exit;
-ENTER	
+STRING cmd
+ENTER
+DELAY 500
+STRING start https://www.youtube.com/watch?v=dQw4w9WgXcQ
+ENTER
