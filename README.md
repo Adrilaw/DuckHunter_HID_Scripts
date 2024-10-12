@@ -7,9 +7,7 @@
 # Scripts Descriptions
 • WinUAC_Killer: It disables windows defender.
 
-• Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and port
-
-• WinRickroll: Starts a rickroll on target systems
+• Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and por
 
 • Win_speaks: Makes your computer say stuff
 
