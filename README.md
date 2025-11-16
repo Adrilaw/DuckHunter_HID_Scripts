@@ -31,7 +31,7 @@ Adrilaw @ GitHub
 Kidpentester @ xda-developers
 
 # License
-DuckHunter_HID_Script is licensed under the [MIT License](LICENSE) to promote open collaboration and innovation in the realm of HID security testing.
+DuckHunter_HID_Script is licensed under the [GNU General Public License](LICENSE) to promote open collaboration and innovation in the realm of HID security testing.
 
 
 # WARNING!
