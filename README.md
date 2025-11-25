@@ -7,7 +7,7 @@
 # Scripts Descriptions
 • WinUAC_Killer: It disables windows defender.
 
-• Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and por
+• Win-Netcat-Rverseshell: It gives you a reverse shell on target system  NOTE: Edit script to desire ip addr and port
 
 • Win_speaks: Makes your computer say stuff
 
@@ -16,6 +16,8 @@
 • FakeUpdateWin11: Opens a fake windows 11 update in fullscreen mode
 
 • Linux-Deb-ReverseShell: Execute a revershell on debian based linux machines
+
+• BypassAMSI_PSRevshell: PowerShell reverse shell on Windows targets while bypassing AMSI and Windows Defender. It uses Base64 encoding to obfuscate the payload and runs in a hidden window to avoid detection
 
 ![Screenshot at 2024-08-02 02-57-53](https://github.com/user-attachments/assets/a85b6532-24ed-48fc-b28e-ff0def8a7125)
 
